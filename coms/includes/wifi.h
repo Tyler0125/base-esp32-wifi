@@ -1,5 +1,5 @@
-#ifdef WIFI_H
-#define WIFI_H
+// #ifdef WIFI_H
+// #define WIFI_H
 
 #include <string.h>
 #include "freertos/FreeRTOS.h"
@@ -19,4 +19,5 @@ extern EventGroupHandle_t s_wifi_event_group;
 void custom_wifi_init();
 
 
-#endif
+
+// #endif
