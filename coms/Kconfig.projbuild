@@ -1,0 +1,17 @@
+menu "Coms Menu"
+
+    config SERVER_BASE_URL
+        string "url base para conectarse al servidor"
+        default "testing.hansraddatz.com"
+    config WIFI_SSID
+        string "ssid de la wifi 2.4g a conectar"
+    config WIFI_PASS
+        string "contraseña de la wifi 2.4g a conectar"
+    config WIFI_MAXIMUM_RETRY
+        int "maximos reintentos"
+        default 5
+    config USE_HTTPS
+        bool "Usar https"
+        default y 
+        
+endmenu
